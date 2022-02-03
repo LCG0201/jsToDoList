@@ -14,16 +14,16 @@
 		<h1>To Do List</h1>
 
 		<section id="inputBox">
-			<input id="inputText" type="text">
+			<input id="inputText" onkeyup="enterkey();" type="text">
 			<input id="addBtn" type="button" value="+">
 		</section>
 
 		<section class="contentsBox">
 			<div id="taskTypes">
 				<div id="underLine"></div>
-				<input class="typeIcon" type="button" value="ALL">
-				<input class="typeIcon" type="button" value="Not Done">
-				<input class="typeIcon" type="button" value="Done">
+				<div id="all" class="typeIcon">ALL</div>
+				<div id="notDone" class="typeIcon">NOT DONE</div>
+				<div id="done" class="typeIcon">DONE</div>
 			</div>
 			<div id="taskBox">
 
